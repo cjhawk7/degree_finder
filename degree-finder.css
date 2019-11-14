@@ -1,0 +1,148 @@
+button.search-finder {
+  float: right;
+  margin: 1px 5px 0;
+}
+
+img.clear-filter {
+  margin-bottom: 4px;
+}
+
+.sort-filter {
+  float: right;
+  border-radius: 0;
+  border-left: 1px solid black;
+  padding-left: 8px;
+  margin: 4px -15px 5px 5px;
+}
+
+h3.program-label,
+h3.degree-label {
+  margin-top: 15px;
+  color: #32071a;
+}
+
+.degree-button,
+.program-button {
+  border: 1px solid #32071a;
+  border-radius: 2px;
+  font-size: 13px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 15px 5px;
+  width: 100%;
+  background-color: white;
+  color: #32071a;
+}
+
+.active {
+  background-color: #32071a;
+  color: white;
+}
+
+.disabled {
+  color: #8b8b8b;
+  border-color: #8b8b8b;
+}
+
+.columns.large-4.program-container {
+  background-color: #eee;
+  position: sticky;
+  top: 120px;
+}
+
+.program-container .row.collapse > .columns {
+  padding-left: 8px;
+  padding-right: 0;
+}
+
+p.list {
+  border-bottom: 1px solid #b4b2b2;
+  color: #32071a;
+  font-weight: 700;
+}
+
+.degree-header {
+  border: 1px solid #b4b2b2;
+  padding: 5px 20px;
+  margin-bottom: 10px;
+  background-color: #32071a;
+  color: white;
+}
+
+.columns.large-12.filter {
+  margin-top: 30px;
+  border-top: 1px solid #b4b2b2;
+  padding: 10px;
+  color: #32071a;
+}
+
+button.filter-button {
+  text-align: left;
+  font-size: 15px;
+}
+
+p.degree-count {
+  display: inline;
+  float: right;
+}
+
+.columns.large-6.small-7.program-count {
+  padding-left: 8px;
+  float: left;
+}
+
+.result-content {
+  padding: 5px;
+  border-top: 1px solid #b4b2b2;
+  margin-bottom: 30px;
+  color: #32071a;
+  font-weight: 700;
+}
+
+a {
+  color: currentColor;
+}
+
+span.program-desc {
+  display: block;
+  font-size: 15px;
+  font-weight: 100;
+  padding-bottom: 30px;
+  color: #404040;
+}
+
+span.count-num {
+  float: left;
+}
+
+@media only screen and (max-width: 900px) {
+  .columns.large-4.program-container {
+    position: relative;
+    top: 0;
+  }
+  .degree-button,
+  .program-button {
+    padding: 10px 0 10px;
+    font-size: 15px;
+    min-height: 70px;
+    line-height: 24px;
+  }
+}
+
+.expander {
+  margin-bottom: 50px;
+  padding: 7px;
+  background-color: #d7d7d7;
+  color: #32071a;
+  border-radius: 0;
+  margin-top: -5px;
+}
+
+.deg {
+  overflow: hidden;
+}
+
+.expander:hover {
+  background-color: #dfdfdf;
+  transition: 0.3s;
+}
